@@ -40,6 +40,10 @@ p, a {
     color: #070E2B;
 }
 
+.external-link {
+    color: #3A10E5;
+    text-decoration: underline;
+}
 
 /* NAV STYLES */
 #navigation {
