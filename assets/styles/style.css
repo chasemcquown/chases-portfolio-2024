@@ -43,6 +43,11 @@ p, a {
 .external-link {
     color: #3A10E5;
     text-decoration: underline;
+    transition: 0.4s;
+}
+
+.external-link:hover {
+    color: #290AA6;
 }
 
 /* NAV STYLES */
@@ -72,7 +77,7 @@ p, a {
     font-family: 'Outfit Regular';
     font-size: 18px;
     color: #6A6875;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 
 .nav-link:hover {
@@ -153,6 +158,11 @@ p, a {
     border: 2px solid #070E2B;
     border-radius: 7px;
     padding: 42px 33px 42px 33px;
+    transition: 0.4s;
+}
+
+.grid-item:hover {
+    background-color: #EFE3DA;
 }
 
 .grid-item h2 {
@@ -234,6 +244,11 @@ p, a {
 
 .footer-link-container a {
     color: #FFD300;
+    transition: 0.4s;
+}
+
+.footer-link-container a:hover {
+    color: #D1AD00;
 }
 
 .footer-link-container p {
