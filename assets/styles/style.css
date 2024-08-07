@@ -8,17 +8,22 @@
 
 @font-face {
     font-family: 'Space Grotesk';
-    src: url(assets/fonts/SpaceGrotesk-Bold.ttf);
+    src: url(../fonts/SpaceGrotesk-Bold.ttf);
 }
 
 @font-face {
     font-family: 'Outfit Regular';
-    src: url(assets/fonts/Outfit-Regular.ttf);
+    src: url(../fonts/Outfit-Regular.ttf);
 }
 
 @font-face {
     font-family: 'Outfit Semibold';
-    src: url(assets/fonts/Outfit-SemiBold.ttf);
+    src: url(../fonts/Outfit-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Outfit Bold';
+    src: url(../fonts/Outfit-Bold.ttf);
 }
 
 body {

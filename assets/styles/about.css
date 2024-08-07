@@ -1,0 +1,41 @@
+/* ABOUT STYLES */
+#about-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 95px 0px 95px 0px;
+}
+
+.about-wrapper {
+    width: 100%;
+    max-width: 1180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-content {
+    width: 50%;
+}
+
+.about-content h2 {
+    font-size: 64px;
+}
+
+.about-content p {
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+
+.about-wrapper img {
+    width: 40%;
+}
+
+.bolder {
+    font-family: 'Outfit Bold';
+    color: #070E2B;
+}
+
+.button-row {
+    justify-content: flex-start;
+}
