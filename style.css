@@ -29,7 +29,7 @@ h1, h2, h3, h4 {
     font-family: 'Space Grotesk';
 }
 
-p {
+p, a {
     font-family: 'Outfit Regular';
 }
 
@@ -165,7 +165,7 @@ p {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin: 150px 0px 150px 0px;
 }
 
 .reach-out-wrapper {
@@ -184,4 +184,47 @@ p {
     font-size: 36px;
     font-family: 'Outfit Semibold';
     color: #3A10E5;
+}
+
+
+/* FOOTER STYLES */
+#footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #070E2B;
+    padding: 75px 0px 75px 0px;
+}
+
+.footer-wrapper {
+    width: 100%;
+    max-width: 1180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-wrapper p {
+    font-size: 16px;
+    color: #FFF0E5;
+    max-width: 400px;
+    text-align: center;
+}
+
+.footer-link-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.footer-link-container a {
+    color: #FFD300;
+}
+
+.footer-link-container p {
+    color: #FFF0E5;
 }
