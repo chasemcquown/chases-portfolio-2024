@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none; 
+    text-decoration: none;
+  }
+
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url(assets/fonts/SpaceGrotesk-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Outfit Regular';
+    src: url(assets/fonts/Outfit-Regular.ttf);
+}
+
+body {
+    background-color: #FFF0E5;
+}
+
+#navigation {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+}
+
+#nav-wrapper {
+    width: 100%;
+    max-width: 1180px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.nav-link {
+    font-family: 'Outfit Regular';
+    font-size: 18px;
+    color: #6A6875;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #070E2B;
+}
