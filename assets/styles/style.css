@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none; 
+    text-decoration: none;
+  }
+
+body {
+    background-color: #FFF0E5;
+}
+
+@font-face {
+    font-family: 'Outfit Regular';
+    src: url(../fonts/Outfit-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Outfit Regular';
+    src: url(../fonts/Outfit-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Outfit Regular';
+    src: url(../fonts/Outfit-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Outfit Regular';
+    src: url(../fonts/Outfit-Regular.ttf);
+}
+
+h1, h2, h3, h4 {
+
+}
