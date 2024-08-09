@@ -6,6 +6,8 @@
     text-decoration: none;
   }
 
+
+/* GENERAL STYLES */
 body {
     background-color: #FFF0E5;
 }
@@ -16,20 +18,141 @@ body {
 }
 
 @font-face {
-    font-family: 'Outfit Regular';
-    src: url(../fonts/Outfit-Regular.ttf);
+    font-family: 'Outfit Semibold';
+    src: url(../fonts/Outfit-SemiBold.ttf);
 }
 
 @font-face {
-    font-family: 'Outfit Regular';
-    src: url(../fonts/Outfit-Regular.ttf);
+    font-family: 'Outfit Bold';
+    src: url(../fonts/Outfit-Bold.ttf);
 }
 
 @font-face {
-    font-family: 'Outfit Regular';
-    src: url(../fonts/Outfit-Regular.ttf);
+    font-family: 'Space Grotesk';
+    src: url(../fonts/SpaceGrotesk-Bold.ttf);
 }
 
 h1, h2, h3, h4 {
+    font-family: 'Space Grotesk';
+    color: #070E2B;
+}
 
+p, a, span {
+    font-family: 'Outfit Regular';
+    color: #070E2B;
+}
+
+.btn-group {
+    display: flex;
+    gap: 8px;
+}
+
+.primary-btn {
+    background-color: #FFF0E5;
+    font-family: 'Outfit Semibold';
+    font-size: 18px;
+    color: #3A10E5;
+    border: 2px solid #3A10E5;
+    border-radius: 6px;
+    padding: 18px 37px 18px 37px;
+    transition: 0.3s;
+}
+
+.primary-btn:hover {
+    background-color: #3A10E5;
+    color: #FFF0E5;
+}
+
+
+/* NAV STYLES */
+#nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 80px 15px 80px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 12px;
+}
+
+.nav-link {
+    font-size: 18px;
+    color: #6A6875;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #070E2B;
+}
+
+
+/* SECTIONS WRAPPER STYLES */
+.sections-wrapper {
+    padding: 0px 80px 0px 80px;
+}
+
+
+/* HERO STYLES */
+#hero-section {
+    width: 100%;
+    display: flex;
+    padding: 90px 0px 90px 0px;
+}
+
+.hero-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.hero-wrapper h1 {
+    font-size: 85px;
+    height: 90px;
+}
+
+.hero-wrapper p {
+    font-size: 26px;
+}
+
+
+/* PROJECT SECTION STYLES */
+#projects-section {
+    width: 100%;
+    display: flex;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 12px;
+}
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #070E2B;
+    border-radius: 7px;
+    padding: 42px 33px 42px 33px;
+    transition: 0.3s;
+}
+
+.grid-item:hover {
+    background-color: #F4E7DD;
+}
+
+.grid-item h2 {
+    font-size: 48px;
+}
+
+.grid-item h3 {
+    font-size: 36px;
+}
+
+.grid-item p {
+    font-size: 20px;
 }
