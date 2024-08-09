@@ -32,7 +32,7 @@
     border: 2px solid #070E2B;
     border-radius: 5px;
     padding: 30px 53px 30px 53px;
-    margin-top: 50px;
+    margin: 50px 0px 50px 0px;
 }
 
 .project-breakdown div p:nth-child(1) {
@@ -42,4 +42,42 @@
 
 .project-breakdown div p:nth-child(2) {
     font-size: 18px;
+}
+
+
+/* PROBLEM SOLUTION SECTION */
+.problem-solution-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    margin-bottom: 95px;
+}
+
+.problem, .solution {
+    display: flex;
+    flex-direction: column;
+}
+
+.solution h2, .solution p {
+    text-align: end;
+}
+
+.problem h2, .solution h2 {
+    font-size: 40px;
+}
+
+.problem p, .solution p {
+    font-size: 18px;
+}
+
+
+/* MAIN PROJECT IMAGE SECTION */
+.main-project-img {
+    width: 100%;
+    display: flex;
+}
+
+.main-project-img img {
+    width: 100%;
 }
