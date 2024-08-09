@@ -76,8 +76,60 @@
 .main-project-img {
     width: 100%;
     display: flex;
+    margin-bottom: 90px;
 }
 
 .main-project-img img {
     width: 100%;
+}
+
+
+/* PROJECT PHASES STYLES */
+#project-phases {
+    display: flex;
+    width: 100%;
+    max-width: 1180px;
+}
+
+.phase-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.phase-section h2 {
+    font-size: 40px;
+}
+
+.phase-section p, .step p {
+    font-size: 18px;
+}
+
+.phase-section h3 {
+    font-size: 22px;
+}
+
+.project-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.project-external-link {
+    font-size: 18px;
+    font-family: 'Outfit Semibold';
+    text-decoration: underline;
+    color: #3A10E5;
+    transition: 0.3s;
+}
+
+.project-external-link:hover {
+    color: #260B92;
 }
