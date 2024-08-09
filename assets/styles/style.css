@@ -216,6 +216,11 @@ p, a, span {
     color: #FFD300;
     text-decoration: underline;
     font-size: 16px;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: #B79800;
 }
 
 .footer-links p {

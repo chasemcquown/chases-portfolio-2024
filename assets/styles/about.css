@@ -1,0 +1,35 @@
+#about-section {
+    width: 100%;
+    display: flex;
+    padding: 90px 0px 90px 0px;
+}
+
+.about-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.about-content h1 {
+    font-size: 64px;
+}
+
+.about-content p {
+    font-size: 18px;
+}
+
+.bold {
+    font-family: 'Raleway Semibold';
+}
+
+.img-container img {
+    height: 720px;
+}
