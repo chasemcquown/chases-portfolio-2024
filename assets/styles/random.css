@@ -1,0 +1,53 @@
+#doodle-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 90px 0px 90px 0px;
+    gap: 15px;
+}
+
+#doodle-section h2 {
+    font-size: 64px;
+}
+
+#doodle-section p {
+    font-size: 18px;
+}
+
+.doodle-imgs {
+    width: 100%;
+    display: flex;
+    gap: 12px;
+}
+
+.doodle-imgs img {
+    width: 33%;
+}
+
+
+/* FISHING SECTION STYLES */
+#fishing-section {
+    width: 100%;
+    background-color: #F6E9DF;
+    padding: 90px 80px 90px 80px;
+    gap: 15px;
+}
+
+#fishing-section h2 {
+    font-size: 64px;
+}
+
+#fishing-section p {
+    font-size: 18px;
+}
+
+.fishing-imgs {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 12px;
+}
+
+.fishing-img {
+    width: 100%;
+}

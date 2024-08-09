@@ -67,6 +67,16 @@ p, a, span {
     font-family: 'Raleway Semibold';
 }
 
+.external-link {
+    font-size: 18px;
+    color: #3A10E5;
+    transition: 0.3s;
+}
+
+.external-link:hover {
+    color: #260B92;
+}
+
 
 /* NAV STYLES */
 #nav {
