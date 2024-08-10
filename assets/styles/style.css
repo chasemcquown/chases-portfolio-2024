@@ -110,10 +110,12 @@ p, a, span {
 .hero-wrapper h1 {
     font-size: 85px;
     height: 90px;
+    text-align: center;
 }
 
 .hero-wrapper p {
     font-size: 26px;
+    text-align: center;
 }
 
 
@@ -171,13 +173,14 @@ p, a, span {
 
 .reach-out-wrapper h2 {
     font-size: 48px;
+    text-align: center;
 }
 
 .reach-out-wrapper p {
     font-family: 'Outfit';
     font-weight: 600;
     font-size: 36px;
-    color: #3A10E5;
+    color: #3A10E5;text-align: center;
 }
 
 
@@ -202,6 +205,7 @@ p, a, span {
 .footer-wrapper p {
     font-size: 18px;
     color: #F4E7DD;
+    text-align: center;
 }
 
 .footer-links {
