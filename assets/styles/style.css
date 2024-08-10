@@ -18,7 +18,7 @@ h1, h2, h3, h4 {
 }
 
 p, a, span {
-    font-family: 'Outfit Regular';
+    font-family: 'Outfit';
     color: #070E2B;
 }
 
@@ -29,7 +29,8 @@ p, a, span {
 
 .primary-btn {
     background-color: transparent;
-    font-family: 'Outfit Semibold';
+    font-family: 'Outfit';
+    font-weight: 600;
     font-size: 18px;
     color: #3A10E5;
     border: 2px solid #3A10E5;
@@ -44,7 +45,8 @@ p, a, span {
 }
 
 .bold {
-    font-family: 'Raleway Semibold';
+    font-family: 'Outfit';
+    font-weight: 600;
 }
 
 .external-link {
@@ -172,7 +174,8 @@ p, a, span {
 }
 
 .reach-out-wrapper p {
-    font-family: 'Outfit Semibold';
+    font-family: 'Outfit';
+    font-weight: 600;
     font-size: 36px;
     color: #3A10E5;
 }

@@ -44,7 +44,8 @@
 
 .project-breakdown div p:nth-child(1) {
     font-size: 24px;
-    font-family: 'Outfit Semibold';
+    font-family: 'Outfit';
+    font-weight: 600;
 }
 
 .project-breakdown div p:nth-child(2) {
