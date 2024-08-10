@@ -5,7 +5,7 @@
     padding: 90px 0px 90px 0px;
 }
 
-.chefsy-hero, .artquest-hero {
+.chefsy-hero, .artquest-hero, .simplewx-hero {
     width: 100%;
     height: 608px;
     display: flex;
@@ -24,9 +24,22 @@
 .artquest-hero {
     background-image: url(../images/artquest\ hero\ img.png);
 }
+.simplewx-hero {
+    background-image: url(../images/simplewx\ hero\ img.png);
+}
 
-.chefsy-hero h1, .artquest-hero h1 {
+.chefsy-hero h1, .artquest-hero h1, .simplewx-hero h1 {
     font-size: 128px;
+}
+
+
+/* ICON ROW STYLES */
+.icon-row {
+    width: 100%;
+    display: flex;
+    gap: 6px;
+    justify-content: end;
+    padding-top: 15px;
 }
 
 
