@@ -165,7 +165,8 @@
 
 .project-external-link {
     font-size: 18px;
-    font-family: 'Outfit Semibold';
+    font-family: 'Outfit';
+    font-weight: 600;
     text-decoration: underline;
     color: #3A10E5;
     transition: 0.3s;
