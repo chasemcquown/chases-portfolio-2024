@@ -12,26 +12,6 @@ body {
     background-color: #FFF0E5;
 }
 
-@font-face {
-    font-family: 'Outfit Regular';
-    src: url(../fonts/Outfit-Regular.ttf);
-}
-
-@font-face {
-    font-family: 'Outfit Semibold';
-    src: url(../fonts/Outfit-SemiBold.ttf);
-}
-
-@font-face {
-    font-family: 'Outfit Bold';
-    src: url(../fonts/Outfit-Bold.ttf);
-}
-
-@font-face {
-    font-family: 'Space Grotesk';
-    src: url(../fonts/SpaceGrotesk-Bold.ttf);
-}
-
 h1, h2, h3, h4 {
     font-family: 'Space Grotesk';
     color: #070E2B;
