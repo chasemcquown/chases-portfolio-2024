@@ -129,6 +129,15 @@
     padding: 100px 0px 100px 0px;
 }
 
+.simple-wx-phase-one {
+    border-top: 1.5px solid #070E2B;
+    border-bottom: none;
+}
+
+.simple-wx-phase-two {
+    padding: 50px 0px 100px 0px;
+}
+
 .phase-section h2 {
     font-size: 40px;
 }
