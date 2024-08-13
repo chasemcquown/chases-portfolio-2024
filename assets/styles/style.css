@@ -7,6 +7,11 @@
   }
 
 
+#mobile-nav {
+    display: none;
+}
+
+
 /* GENERAL STYLES */
 body {
     background-color: #FFF0E5;
@@ -230,6 +235,71 @@ p, a, span {
     font-size: 16px;
 }
 
+/* MOBILE NAV STYLES */
+.hamburger-holder {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 7%;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-bottom: 15%;
+}
+
+#mobile-menu {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.hamburger-holder a img {
+    width: 90%;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.97);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-family: 'Outfit';
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 900;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .overlay a:hover, .overlay a:focus {
+    color: #C7C7CE;
+  }
+
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
 
 
 
@@ -244,6 +314,14 @@ p, a, span {
 
     #nav {
         display: none;
+    }
+
+    #mobile-nav {
+        display: contents;
+    }
+
+    .external-link {
+        font-size: 16px;
     }
 
     /* MOBILE BUTTON STYLES */
