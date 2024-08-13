@@ -199,3 +199,205 @@
     text-align: center;
     max-width: 700px;
 }
+
+
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 767px) {
+
+    #nav {
+        display: none;
+    }
+    
+    #chefsy-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 90px 0px 90px 0px;
+    }
+    
+    .chefsy-hero, .artquest-hero, .simplewx-hero {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .chefsy-hero {
+        background-image: url(../images/chefsy-bg-image.png);
+    }
+    
+    .artquest-hero {
+        background-image: url(../images/artquest\ hero\ img.png);
+    }
+    .simplewx-hero {
+        background-image: url(../images/simplewx\ hero\ img.png);
+    }
+    
+    .chefsy-hero h1, .artquest-hero h1, .simplewx-hero h1 {
+        font-size: 80px;
+    }
+    
+    
+    /* ICON ROW STYLES */
+    .icon-row {
+        width: 100%;
+        display: flex;
+        gap: 6px;
+        justify-content: end;
+        padding-top: 15px;
+    }
+    
+    
+    /* PROJECT BREAKDOWN STYLES */
+    .project-breakdown {
+        flex-direction: column;
+        gap: 10px;
+        padding: 30px 20px 30px 20px;
+    }
+    
+    .project-breakdown div p:nth-child(1) {
+        font-size: 20px;
+        font-family: 'Outfit';
+        font-weight: 600;
+    }
+    
+    .project-breakdown div p:nth-child(2) {
+        font-size: 16px;
+    }
+    
+    
+    /* PROBLEM SOLUTION SECTION */
+    .problem-solution-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 55px;
+        margin-bottom: 95px;
+    }
+    
+    .problem, .solution {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .solution h2, .solution p {
+        text-align: end;
+    }
+    
+    .problem h2, .solution h2 {
+        font-size: 40px;
+    }
+    
+    .problem p, .solution p {
+        font-size: 16px;
+    }
+    
+    
+    /* MAIN PROJECT IMAGE SECTION */
+    .main-project-img {
+        width: 100%;
+        display: flex;
+    }
+    
+    .main-project-img img {
+        width: 100%;
+    }
+    
+    
+    /* PROJECT PHASES STYLES */
+    #project-phases {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 1180px;
+    }
+    
+    #project-phases .phase-section:nth-child(4) {
+        border-bottom: none;
+        padding: 50px 0px 50px 0px;
+    }
+    
+    #project-phases .phase-section:nth-child(3) {
+        border-bottom: none;
+    }
+    
+    .phase-section {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        border-bottom: 1.5px solid #070E2B;
+        padding: 100px 0px 100px 0px;
+    }
+    
+    .simple-wx-phase-one {
+        border-top: 1.5px solid #070E2B;
+        border-bottom: none;
+    }
+    
+    .simple-wx-phase-two {
+        padding: 50px 0px 100px 0px;
+    }
+    
+    .phase-section h2 {
+        font-size: 40px;
+    }
+    
+    .phase-section p, .step p {
+        font-size: 16px;
+    }
+    
+    .phase-section h3 {
+        font-size: 22px;
+    }
+    
+    .project-steps {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+    
+    .step {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .project-external-link {
+        font-size: 18px;
+        font-family: 'Outfit';
+        font-weight: 600;
+        text-decoration: underline;
+        color: #3A10E5;
+        transition: 0.3s;
+    }
+    
+    .project-external-link:hover {
+        color: #260B92;
+    }
+    
+    
+    /* BOTTOM CTA STYLES */
+    #bottom-cta-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #F6E9DF;
+        padding: 120px 80px 120px 80px;
+        gap: 15px;
+    }
+    
+    #bottom-cta-section h2 {
+        text-align: center;
+        font-size: 40px;
+    }
+    
+    #bottom-cta-section p {
+        font-size: 18px;
+        text-align: center;
+        max-width: 700px;
+    }
+    
+  }
