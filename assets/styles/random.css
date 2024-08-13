@@ -67,6 +67,10 @@
         display: none;
     }
 
+    #doodle-section {
+        padding: 20px 0px 90px 0px;
+    }
+
     #doodle-section h2 {
         line-height: 95%;
     }

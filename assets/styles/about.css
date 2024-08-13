@@ -39,6 +39,10 @@
     #nav {
         display: none;
     }
+
+    #about-section {
+        padding: 20px 0px 90px 0px;
+    }
     
     .about-wrapper {
         width: 100%;

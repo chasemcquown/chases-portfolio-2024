@@ -338,6 +338,10 @@ p, a, span {
     }
 
     /* MOBILE HERO STYLES */
+    #hero-section {
+        padding: 30px 0px 90px 0px;
+    }
+
     .hero-wrapper h1 {
         font-size: 65px;
         line-height: 85%;
