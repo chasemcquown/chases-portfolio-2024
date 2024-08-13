@@ -257,6 +257,10 @@ p, a, span {
         padding: 18px 37px 18px 37px;
     }
 
+    .mobile-btn-group {
+        justify-content: center;
+    }
+
     /* MOBILE HERO STYLES */
     .hero-wrapper h1 {
         font-size: 65px;
