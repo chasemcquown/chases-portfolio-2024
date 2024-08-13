@@ -280,10 +280,9 @@ p, a, span {
   .overlay a {
     padding: 8px;
     text-decoration: none;
-    font-family: 'Outfit Regular';
+    font-family: 'Outfit';
     font-size: 30px;
     line-height: 40px;
-    font-weight: 900;
     color: #FFF0E5;
     display: block;
     transition: 0.3s;
