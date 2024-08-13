@@ -250,7 +250,6 @@ p, a, span {
     .btn-group {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
     }
     
     .primary-btn {
