@@ -180,7 +180,8 @@ p, a, span {
     font-family: 'Outfit';
     font-weight: 600;
     font-size: 36px;
-    color: #3A10E5;text-align: center;
+    color: #3A10E5;
+    text-align: center;
 }
 
 
@@ -241,18 +242,20 @@ p, a, span {
 /* MEDIA QUERIES */
   @media screen and (max-width: 767px) {
 
-    #nav, #projects-section {
+    #nav {
         display: none;
     }
 
     /* MOBILE BUTTON STYLES */
     .btn-group {
         display: flex;
-        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     
     .primary-btn {
         font-size: 16px;
+        padding: 18px 37px 18px 37px;
     }
 
     /* MOBILE HERO STYLES */
@@ -281,13 +284,43 @@ p, a, span {
         font-size: 20px;
     }
 
-    /* MOBILE SECTIONS WRAPPER STYLES */
-    .sections-wrapper {
-    padding: 0px 0px 0px 0px;
+
+    /* MOBILE PROJECTS SECTION STYLES */
+    .grid-container {
+        grid-template-columns: auto;
     }
 
-    #reach-out-section, #footer {
-        display: none;
+    .grid-item h2 {
+        font-size: 38px;
+    }
+    
+    .grid-item h3 {
+        font-size: 26px;
+    }
+    
+    .grid-item p {
+        font-size: 16px;
+    }
+
+
+    /* MOBILE REACH OUT SECTION STYLES */
+    .reach-out-wrapper h2 {
+        font-size: 38px;
+    }
+    
+    .reach-out-wrapper p {
+        font-size: 28px;
+    }
+
+
+    /* MOBILE FOOTER STYLES */
+    .footer-wrapper p {
+        font-size: 16px;
+    }
+
+    /* MOBILE SECTIONS WRAPPER STYLES */
+    .sections-wrapper {
+    padding: 0px 25px 0px 25px;
     }
     
   }
