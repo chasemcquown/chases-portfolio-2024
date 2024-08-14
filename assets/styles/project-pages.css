@@ -341,6 +341,7 @@
     
     .phase-section h2 {
         font-size: 40px;
+        line-height: 95%;
     }
     
     .phase-section p, .step p {
@@ -370,6 +371,7 @@
     
     #bottom-cta-section h2 {
         font-size: 40px;
+        line-height: 95%;
     }
     
     #bottom-cta-section p {
